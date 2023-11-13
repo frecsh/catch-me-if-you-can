@@ -1,0 +1,135 @@
+data pathing
+    datasets
+        umugda 
+            fully qualified 
+                malware_algo
+                    list > txt
+
+------
+regex string filtering
+    pre-process
+        url domain 
+            structure
+                scheme | subdomain | second-level domain | top-level domain | subdirectory
+                https  | www       | instagram           | com              | username
+
+        [x] Fingerprint(features) of a domain
+            second_level_domain
+                alphanumeric characters
+                    number of alphanumeric characters
+                    distribution of alphanumeric characters
+                digits
+                    number of digits 
+                    distribution of digits 
+            top_level_domain 
+            shannon entropy
+        
+
+        [x] pattern usage in TLDs important? 
+            malware algo has a pattern
+            frequency distribution of tlds used
+
+        [x] Hashing Parts of the Domain for standardization? Does it impact results? 
+
+        
+            (?) hash(entire_domain)
+            (?) hash(second_level_domain)
+            (?) hash(second_level_domain and top_level_domain)
+        [x] TLD distribution of each malware family needed?
+        [x] unicode representation of characters
+            characaters
+            UTF-16 
+            Hex/UTF-32
+        
+        [x] is there a way to infer structure to the algorithm
+        
+
+ 
+            
+
+            str_requestFlush, ensure your_rsc, str_requestFlush, spawn plan
+        
+
+    ex: 
+        pinterest.com --> ['pinterest', '.com']
+        c0cvofabo2ypohcda6k.ddns.net --> ['c0cvofabo2ypohcda6k', 'ddns', 'net']
+        rycahav.info --> ['rycahav', 'info']
+        xuconvvoonqr.us --> ['xuconvvoonqr', 'us']
+        wqfny6pifxk413eiykco7bfd9.org --> ['wqfny6pifxk413eiykco7bfd9' , 'org']
+
+
+https://www.sciencedirect.com/science/article/pii/S0167404820300067?via%3Dihub
+
+https://zenodo.org/record/3618221
+
+https://data.mendeley.com/datasets/y8ph45msv8/1
+
+https://conferences.sigcomm.org/imc/2004/papers/p101-zhang.pdf
+
+https://www.sciencedirect.com/topics/computer-science/secure-hash-algorithm#:~:text=The%20Secure%20Hash%20Standard%20specifies,representation%20called%20a%20message%20digest.
+
+https://r12a.github.io/app-conversion/
+
+
+
+
+---------
+
+
+convo with ozzy:
+    g.a.n problem - generates 
+        real domains
+        fake domains
+
+    try to figure out the problem without using neural networks
+        trying to build simple 
+        figure out the baseline
+
+
+------
+6-7 will be paid to do more dedicated work
+
+
+
+
+
+https://maxar.wd1.myworkdayjobs.com/MAXAR?utm_source=Maxar-careers&utm_medium=website
+
+
+---
+shannon entropy (information theory)
+    measure of rate of which informationis produced by a source of data 
+    - used to detect whether data is likely to be structured or unstructured. 0 < 8(highly unstructured, raondom)
+
+ [x] shannon entropy distribution on algorithm
+
+Shannon Entropy, in the context of information theory, is a measure of the rate at which information is produced by a source of data. It can be used, in a broad sense, to detect whether data is likely to be structured or unstructured. 8 is the maximum, representing highly unstructured, 'random' data. English language text usually falls somewhere between 3.5 and 5. Properly encrypted or compressed data should have an entropy of over 7.5
+    [x] will malware families have the same shannon entropy? 
+
+
+
+-----
+
+character level nlp
+
+https://yw9381.github.io/Burp_Suite_Doc_en_us/burp/documentation/desktop/tools/sequencer/results.html
+
+character level analysis
+
+bit-level analysis
+
+
+https://portswigger.net/burp/documentation/desktop/tools/sequencer/results
+    effective entropy - shows number of bits that pas the randomness tests at various significance levels 
+
+
+
+https://aclanthology.org/P18-1036/ | character level models versus morphology in semantic role labeling 
+    character-level models - handle unseen data 
+
+https://arxiv.org/pdf/2109.13723.pdf | analysizing the use of character level translation with sparse and noisy datasets 
+
+
+
+https://www.lighttag.io/blog/character-level-NLP/ | character level NLP 
+    
