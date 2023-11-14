@@ -76,7 +76,7 @@ https://r12a.github.io/app-conversion/
 ---------
 
 
-convo with ozzy:
+
     g.a.n problem - generates 
         real domains
         fake domains
