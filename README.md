@@ -21,14 +21,14 @@ The character-rich nature of cybersecurity has many problem areas where Natural 
 
 The last sub-goal is an application of natural language generation to malware, which hypothetically can increase the search coverage for new DGAs and extract code structure intent for DGAs.
 
-Since 2015, various research groups have applied NLP to DGA detection. Highnam et al[1] created Bilbo the fibagginfi model, a hybrid neural network capable of analyzing domains by leveraging  a long-term short-term memory (LTSM) and convolutional neural network for DGA Detection. The group analyzed common substrings within the domain name to ensure the robustness of the model when given a word-based domain. Word-based domain names are lexicographically similar to popular websites.  Examples may include instegram.com, myface.com, or georgialech.edu. Koh et al [2] focused on context-sensitive word embeddings and leveraged ELMo to assist DGA classification. Their model architecture took less than 10 epochs to converge on consumer-grade technology, which increased my confidence in building a model to perform the same task with limited compute resources.
+Since 2015, various research groups have applied NLP to DGA detection. Highnam et al[1] created Bilbo the fibagginfi model, a hybrid neural network capable of analyzing domains by leveraging  a long-term short-term memory (LTSM) and convolutional neural network for DGA Detection. The group analyzed common substrings within the domain name to ensure the robustness of the model when given a word-based domain. Word-based domain names are lexicographically similar to popular websites.  Examples may include instegram.com, myface.com, or georgialech.edu. Koh et al [2] focused on context-sensitive word embeddings and leveraged ELMo to assist DGA classification. Their model architecture took less than 10 epochs to converge on consumer-grade technology, which increased my confidence in building a model to perform the same task with limited computing resources.
 
 
 Plan
 
 Thankfully, many researchers, such as Highnam et al.[1] and Koh et al.[2], have produced works explaining the application of NLP within this problem area. On top of previous research performed, malware analysis is a vast, old field. A Myriad of datasets exists on Kaggle, such as:
 - Microsoft Malware Classification Challenge[3] - Dataset including more than 20k examples of dissambley and bytecode
-- UMUDGA - Domain Generation, https://www.kaggle.com/slashtea/domain-generation-algorithm - Dataset including 30 million manually labled DGA domains
-- Domain Generation Algorithm, https://www.kaggle.com/saurabhshahane/domain-generation - Dataset including websites collected from Alexa wesbtie ranking blacklist of previous DGA domains
-nd formaizling findings into a report 
+- UMUDGA - Domain Generation, https://www.kaggle.com/slashtea/domain-generation-algorithm - Dataset including 30 million manually labeled DGA domains
+- Domain Generation Algorithm, https://www.kaggle.com/saurabhshahane/domain-generation - Dataset including websites collected from Alexa website ranking blacklist of previous DGA domains
+nd formalizing findings into a report 
 \end{itemize}
