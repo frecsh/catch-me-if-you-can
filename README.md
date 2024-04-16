@@ -1,4 +1,4 @@
-# cmyc - catch me if you can
+# CMYC - Catch Me If You Can
 Identifying Command &amp; Control (C&amp;C) domains within networks.
 
 Introduction
