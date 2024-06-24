@@ -1,6 +1,8 @@
 # CMYC - Catch Me If You Can
 Identifying Command &amp; Control (C&amp;C) domains within networks.
 
+[yes, all this is cooked, and I am remaking this]
+
 Introduction
 
 Command and Control (C2) centers are registered domains leveraged by threat actors such as Cybercriminals or Advance Persistent Threats(APTs), to communicate with malware-infected devices (bots). Communication between the malicious parties through Command and Control Centers allows for the exfiltration and exchange of information such as bot instructions, intelligence, telemetry, intellectual property, or other forms of data. 
