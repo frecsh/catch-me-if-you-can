@@ -1,7 +1,5 @@
-# CMYC - Catch Me If You Can
+# [Re-Work in Progress] CMYC - Catch Me If You Can
 Identifying Command &amp; Control (C&amp;C) domains within networks.
-
-[yes, all this is cooked, and I am remaking this]
 
 Introduction
 
